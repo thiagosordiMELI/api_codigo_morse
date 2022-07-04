@@ -16,7 +16,6 @@ public class MorseTraduzido {
         morse = morse.replace("   ", " @ ");
         String[] morseSplitted = morse.split(" ");
         for(String m:morseSplitted){
-            System.out.print(m);
             switch (m){
                 case ".-":
                     texto += "A";
